@@ -1,0 +1,76 @@
+{
+  "name": "vue-black-dashboard-pro",
+  "version": "1.3.0",
+  "private": true,
+  "description": "Vue Black Dashboard PRO",
+  "author": "Creative Tim",
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "npm run serve"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "5.9.0",
+    "@fullcalendar/daygrid": "5.9.0",
+    "@fullcalendar/interaction": "5.9.0",
+    "@fullcalendar/timegrid": "5.9.0",
+    "@fullcalendar/vue": "5.9.0",
+    "@tweenjs/tween.js": "16.6.0",
+    "axios": "^0.26.1",
+    "bootstrap": "4.6.0",
+    "chart.js": "2.9.3",
+    "core-js": "3.16.0",
+    "d3": "7.0.0",
+    "datamaps": "0.5.9",
+    "dns": "^0.2.2",
+    "element-ui": "2.15.3",
+    "es6-promise": "4.2.8",
+    "fuse.js": "6.4.6",
+    "google-maps": "4.3.3",
+    "moment": "^2.29.1",
+    "nouislider": "15.2.0",
+    "obj2gltf": "^3.1.4",
+    "perfect-scrollbar": "1.5.2",
+    "register-service-worker": "1.7.2",
+    "stats-js": "^1.0.1",
+    "sweetalert2": "11.0.20",
+    "three": "^0.139.2",
+    "three-obj-mtl-loader": "^1.0.3",
+    "three-orbit-controls": "^82.1.0",
+    "three-orbitcontrols": "^2.110.3",
+    "vee-validate": "^3.4.11",
+    "vue": "2.6.14",
+    "vue-chartjs": "3.5.1",
+    "vue-i18n": "8.25.0",
+    "vue-router": "3.5.2",
+    "vue-router-prefetch": "1.6.2",
+    "vue2-google-maps": "0.10.7",
+    "vue2-transitions": "0.3.0",
+    "vuetify": "^2.6.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.13",
+    "@vue/cli-plugin-eslint": "4.5.13",
+    "@vue/cli-plugin-pwa": "4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.16",
+    "@vue/cli-service": "4.5.13",
+    "babel-plugin-component": "1.1.1",
+    "eslint": "7.31.0",
+    "eslint-plugin-vue": "7.15.0",
+    "node-sass": "6.0.1",
+    "sass-loader": "10.2.0",
+    "vue-cli-plugin-i18n": "2.1.2",
+    "vue-template-compiler": "2.6.14"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
